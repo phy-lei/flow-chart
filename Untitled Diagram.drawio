@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-07-07T03:42:43.450Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="9Y3ovF9Pt_fNL1ETGscU" version="21.6.1" type="github">
+<mxfile host="app.diagrams.net" modified="2023-07-07T03:48:10.786Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="-39amAC3ciLl5lPwrfFZ" version="21.6.1" type="github">
   <diagram id="6a731a19-8d31-9384-78a2-239565b7b9f0" name="Page-1">
     <mxGraphModel dx="954" dy="616" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="none" math="0" shadow="0">
       <root>
@@ -15,32 +15,35 @@
         <mxCell id="1753" value="Embassy" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeColor=none;strokeWidth=3;fillColor=#e85642;fontFamily=Helvetica;fontSize=14;fontColor=#FFFFFF;align=center;spacing=5;fontStyle=1;arcSize=7;perimeterSpacing=2;" parent="1" vertex="1">
           <mxGeometry x="215" y="385.5" width="150" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="1760" value="user_settings--store" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeColor=none;strokeWidth=3;fillColor=#1699d3;fontFamily=Helvetica;fontSize=14;fontColor=#FFFFFF;align=center;spacing=5;fontStyle=1;arcSize=7;perimeterSpacing=2;" parent="1" vertex="1">
+        <mxCell id="1760" value="挂载DayNightManager组件容器层，传入callback" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeColor=none;strokeWidth=3;fillColor=#1699d3;fontFamily=Helvetica;fontSize=14;fontColor=#FFFFFF;align=center;spacing=5;fontStyle=1;arcSize=7;perimeterSpacing=2;" parent="1" vertex="1">
           <mxGeometry x="491.5" y="520" width="192" height="90.5" as="geometry" />
         </mxCell>
         <mxCell id="t4K2d5em0BPrAeLA6cwA-1780" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1771" target="1749">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="1771" value="DayNightManagerServices" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeColor=none;strokeWidth=3;fillColor=#12aab5;fontFamily=Helvetica;fontSize=14;fontColor=#FFFFFF;align=center;spacing=5;fontStyle=1;arcSize=7;perimeterSpacing=2;" parent="1" vertex="1">
-          <mxGeometry x="495" y="160" width="185" height="94.5" as="geometry" />
+          <mxGeometry x="495" y="196" width="185" height="94.5" as="geometry" />
         </mxCell>
         <mxCell id="t4K2d5em0BPrAeLA6cwA-1782" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="662" y="159" as="sourcePoint" />
-            <mxPoint x="712" y="109" as="targetPoint" />
+            <mxPoint x="662" y="195" as="sourcePoint" />
+            <mxPoint x="712" y="145" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="t4K2d5em0BPrAeLA6cwA-1784" value="获取端的夜间模式等get方法" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeColor=none;strokeWidth=3;fillColor=#12aab5;fontFamily=Helvetica;fontSize=14;fontColor=#FFFFFF;align=center;spacing=5;fontStyle=1;arcSize=7;perimeterSpacing=2;" vertex="1" parent="1">
-          <mxGeometry x="630" y="60" width="185" height="44.5" as="geometry" />
+          <mxGeometry x="630" y="96" width="185" height="44.5" as="geometry" />
         </mxCell>
         <mxCell id="t4K2d5em0BPrAeLA6cwA-1785" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="516" y="160" as="sourcePoint" />
-            <mxPoint x="456" y="110" as="targetPoint" />
+            <mxPoint x="516" y="196" as="sourcePoint" />
+            <mxPoint x="456" y="146" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="t4K2d5em0BPrAeLA6cwA-1786" value="设置端夜间模式等set方法" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeColor=none;strokeWidth=3;fillColor=#12aab5;fontFamily=Helvetica;fontSize=14;fontColor=#FFFFFF;align=center;spacing=5;fontStyle=1;arcSize=7;perimeterSpacing=2;" vertex="1" parent="1">
-          <mxGeometry x="380" y="60" width="185" height="44.5" as="geometry" />
+          <mxGeometry x="380" y="96" width="185" height="44.5" as="geometry" />
+        </mxCell>
+        <mxCell id="t4K2d5em0BPrAeLA6cwA-1795" value="user_settings--store" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeColor=none;strokeWidth=3;fillColor=#1699d3;fontFamily=Helvetica;fontSize=14;fontColor=#FFFFFF;align=center;spacing=5;fontStyle=1;arcSize=7;perimeterSpacing=2;" vertex="1" parent="1">
+          <mxGeometry x="345" y="660" width="150" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
